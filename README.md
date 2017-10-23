@@ -1,8 +1,10 @@
 # Codeforces Helper
 
-Codeforces Helper is a Node.js executable that accepts a URL to a problem in www.codeforces.com, and sets up a folder for the problem with all the test cases in the problem.
+Codeforces Helper is a Node.js executable that accepts a URL to a problem in www.codeforces.com, and sets up a folder for the problem with all the test cases in the problem. As a bonus, a template and test script is made!
 
-This saves a lot of setup time, so one can focus more on solving the problem! :)
+This saves a lot of setup time, so one can just focus on solving the problem! :smile:
+
+NOTE: To use the test script, the C++ executable should be named "sol"
 
 ## Installation ##
 
