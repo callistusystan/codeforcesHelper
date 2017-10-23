@@ -19,6 +19,7 @@ Steps:
 3. Enter the following commands:
 
 	```
+		> sudo su
 		> npm install -g  .
 	```
 
