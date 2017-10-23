@@ -2,7 +2,7 @@
   "name": "cfhelper",
   "version": "1.0.0",
   "description": "A node program to extract codeforces inputs and outputs",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,12 +12,12 @@
     "axios": "^0.17.0",
     "cheerio": "^1.0.0-rc.2",
     "htmlparser2": "^3.9.2",
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "minimist": "^1.2.0"
   },
   "bin": {
     "cfhelper": "bin/index.js"
   },
-  "main": "./lib/index.js",
   "preferGlobal": "true",
   "devDependencies": {},
   "keywords": [
