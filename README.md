@@ -4,8 +4,6 @@ Codeforces Helper is a Node.js executable that accepts a URL to a problem in www
 
 This saves a lot of setup time, so one can focus more on solving the problem! :)
 
-
-
 ## Installation ##
 
 Requirements:
@@ -22,21 +20,12 @@ Steps:
 		> npm install -g  .
 	```
 
-
-
 ## Usage ##
 
-Requirements:
+cfhelper expects two arguments, directory, and URL
 
-1. Node.js
+	cfhelper <directory> <URL>
 
-Steps:
+For instance,
 
-1. Enter the command:
-
-	```
-		> cfhelper <directory> <URL>
-		> Example: cfhelper . http://codeforces.com/problemset/problem/228/A
-	```
-
-A valid example would be:
+	cfhelper . http://codeforces.com/problemset/problem/228/A
