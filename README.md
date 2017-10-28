@@ -4,7 +4,9 @@ Codeforces Helper is a Node.js executable that accepts a URL to a problem in www
 
 This saves a lot of setup time, so one can just focus on solving the problem! :smile:
 
-NOTE: To use the test script, the C++ executable should be named "sol"
+The tool is limited to public pages, thus it will not be able to extract problem data from private contests.
+
+NOTE: To use the test script, the C++ executable should be named "sol" (g++ -std=c++14 <code.cpp> -o sol)
 
 ## Installation ##
 
