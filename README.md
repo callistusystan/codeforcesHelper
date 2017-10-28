@@ -1,10 +1,10 @@
 # Codeforces Helper
 
-Codeforces Helper is a Node.js executable that accepts a URL to a problem in www.codeforces.com, and sets up a folder for the problem with all the test cases in the problem.
+Codeforces Helper is a Node.js executable that accepts a URL to a problem in www.codeforces.com, and sets up a folder for the problem with all the test cases in the problem. As a bonus, a template and test script is made!
 
-This saves a lot of setup time, so one can focus more on solving the problem! :)
+This saves a lot of setup time, so one can just focus on solving the problem! :smile:
 
-
+NOTE: To use the test script, the C++ executable should be named "sol"
 
 ## Installation ##
 
@@ -19,24 +19,16 @@ Steps:
 3. Enter the following commands:
 
 	```
+		> sudo su
 		> npm install -g  .
 	```
 
-
-
 ## Usage ##
 
-Requirements:
+cfhelper expects two arguments, directory, and URL
 
-1. Node.js
+	cfhelper <directory> <URL>
 
-Steps:
+For instance,
 
-1. Enter the command:
-
-	```
-		> cfhelper <directory> <URL>
-		> Example: cfhelper . http://codeforces.com/problemset/problem/228/A
-	```
-
-A valid example would be:
+	cfhelper . http://codeforces.com/problemset/problem/228/A
