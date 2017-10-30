@@ -16,13 +16,11 @@ Requirements:
 
 Steps:
 
-1. Clone this project and extract it on your computer
-2. Open a terminal and change to the project directory
-3. Enter the following commands:
+1. Open a terminal and change to the project directory
+2. Enter the following command:
 
 	```
-		> sudo su
-		> npm install -g  .
+		> npm install -g cfhelper
 	```
 
 ## Usage ##
