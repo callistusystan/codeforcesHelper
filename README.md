@@ -4,7 +4,9 @@ Codeforces Helper is a Node.js executable that accepts a URL to a problem in www
 
 This saves a lot of setup time, so one can just focus on solving the problem! :smile:
 
-NOTE: To use the test script, the C++ executable should be named "sol"
+The tool is limited to public pages, thus it will not be able to extract problem data from private contests.
+
+NOTE: To use the test script, the C++ executable should be named "sol" (g++ -std=c++14 <code.cpp> -o sol)
 
 ## Installation ##
 
@@ -14,13 +16,11 @@ Requirements:
 
 Steps:
 
-1. Clone this project and extract it on your computer
-2. Open a terminal and change to the project directory
-3. Enter the following commands:
+1. Open a terminal and change to the project directory
+2. Enter the following command:
 
 	```
-		> sudo su
-		> npm install -g  .
+		> npm install -g cfhelper
 	```
 
 ## Usage ##
