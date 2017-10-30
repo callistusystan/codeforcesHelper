@@ -12,11 +12,11 @@ NOTE: To use the test script, the C++ executable should be named "sol" (g++ -std
 
 Requirements:
 
-1. Node.js
+1. Node.js with NPM
 
 Steps:
 
-1. Open a terminal and change to the project directory
+1. Open a terminal (with Node.js installed)
 2. Enter the following command:
 
 	```
