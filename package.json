@@ -11,7 +11,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Callistus Tan",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.17.0",
     "cheerio": "^1.0.0-rc.2",
