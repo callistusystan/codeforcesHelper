@@ -1,5 +1,7 @@
 # Codeforces Helper
 
+[![npm version](https://badge.fury.io/js/cfhelper.svg)](https://badge.fury.io/js/cfhelper)
+
 Codeforces Helper is a Node.js executable that accepts a URL to a problem in www.codeforces.com, and sets up a folder for the problem with all the test cases in the problem. As a bonus, a template and test script is made!
 
 This saves a lot of setup time, so one can just focus on solving the problem! :smile:
