@@ -1,13 +1,45 @@
 #!/usr/bin/env node
 const cfget = require('../lib/index');
 const argv = require('minimist')(process.argv.slice(2));
+const fs = require('fs');
 
-if (argv.t) {
-  const path =  argv.t;
-  cfget.setTemplate(path);
-} else if (argv.r) {
-  cfget.resetTemplate();
-} else {
-  const [directory, URL] =  argv._;
-  cfget.extract(directory, URL);
+const main = () => {
+  if (argv.h || argv.help) {
+    cfget.usage();
+  } else if (argv.set) {
+    // set template
+    const src =  argv.set;
+    if (!src) {
+      console.log("path location of template file must be provided");
+      console.log("Usage: cfget -set <path>");
+      return;
+    }
+    if (!fs.existsSync(src)) {
+      console.log("path location of template file must be valid");
+      console.log("Usage: cfget -set <path>");
+      return;
+    }
+    cfget.setTemplate(src);
+  } else if (argv.reset) {
+    // reset template
+    cfget.resetTemplate();
+  } else {
+    // extract data
+    if (argv._.length > 2) {
+      console.log("too many arguments!");
+      console.log("Usage: cfget <directory> <URL>");
+      return;
+    }
+
+    // parse args
+    const [directory, URL] =  argv._;
+    if (!directory || !URL) {
+      console.log("directory and URL must both be specified!");
+      console.log("Usage: cfget <directory> <URL>");
+      return;
+    }
+    cfget.extract(directory, URL);
+  }
 }
+
+main();
