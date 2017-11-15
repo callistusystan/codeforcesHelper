@@ -27,10 +27,24 @@ Steps:
 
 ## Usage ##
 
-cfhelper expects two arguments, directory, and URL
+  cfhelper [-h | --help] [--set <templateFile>] [--reset] [<directory> <URL>]
 
-	cfhelper <directory> <URL>
+   -h | --help
+     Displays this help file
 
-For instance,
+  --set <templateFile>
+    Sets the specified template file that will be generated when extracting problem data
 
-	cfhelper . http://codeforces.com/problemset/problem/228/A
+    NOTE: templateFile must be a valid path to an existing file
+
+    Example: cfhelper --set template.py
+
+  --reset
+    Resets the template file to the default C++ file
+
+  <directory> <URL>
+    Extracts the problem data in the URL and CREATES a new folder in the specified directory
+
+    Example: cfhelper . http://codeforces.com/problemset/problem/1/A
+
+    NOTE: URL must be a publicly accessible link to a Codeforces problem
