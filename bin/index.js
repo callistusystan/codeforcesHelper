@@ -10,13 +10,13 @@ const main = () => {
     // set template
     const src =  argv.set;
     if (!src) {
-      console.log("path location of template file must be provided");
-      console.log("Usage: cfget -set <path>");
+      console.log("Path location of template file must be provided");
+      console.log("Usage: cfget --set <path>");
       return;
     }
     if (!fs.existsSync(src)) {
-      console.log("path location of template file must be valid");
-      console.log("Usage: cfget -set <path>");
+      console.log("Path location of template file must be valid");
+      console.log("Usage: cfget --set <path>");
       return;
     }
     cfget.setTemplate(src);
@@ -26,7 +26,7 @@ const main = () => {
   } else {
     // extract data
     if (argv._.length > 2) {
-      console.log("too many arguments!");
+      console.log("Too many arguments!");
       console.log("Usage: cfget <directory> <URL>");
       return;
     }
@@ -34,7 +34,7 @@ const main = () => {
     // parse args
     const [directory, URL] =  argv._;
     if (!directory || !URL) {
-      console.log("directory and URL must both be specified!");
+      console.log("Directory and URL must both be specified!");
       console.log("Usage: cfget <directory> <URL>");
       return;
     }
