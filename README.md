@@ -35,7 +35,7 @@ Steps:
 
 ## Usage ##
 
-	cfhelper [-h | --help] [--set <templateFile>] [--reset] [<directory> <URL>]
+	cfhelper [-h | --help] [<directory> <URL>] [--set <templateFile>] [--reset] [--notest] [--test]
 
  	-h | --help
 		Displays the documentation
