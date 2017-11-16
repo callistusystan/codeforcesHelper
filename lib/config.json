@@ -1,3 +1,4 @@
 {
-  "template": "default_template.cpp"
+  "template": "default_template.cpp",
+  "testScript": true
 }

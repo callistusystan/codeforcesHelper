@@ -23,6 +23,10 @@ const main = () => {
   } else if (argv.reset) {
     // reset template
     cfget.resetTemplate();
+  } else if (argv.notest) {
+    cfget.setTestScript(false);
+  } else if (argv.test) {
+    cfget.setTestScript(true);
   } else {
     // extract data
     if (argv._.length > 2) {

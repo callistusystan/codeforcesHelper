@@ -1,9 +1,18 @@
 Usage:
 ------
-    cfhelper [-h | --help] [--set <templateFile>] [--reset] [<directory> <URL>]
+    cfhelper [-h | --help] [<directory> <URL>] [--set <templateFile>] [--reset] [--notest] [--test]
 
     -h | --help
         Displays the documentation
+
+    <directory> <URL>
+        Extracts the data of problem(s) in the URL and creates a new folder for the problem(s)
+        in the specified directory
+
+        Example: cfhelper . http://codeforces.com/problemset/problem/1/A
+        Example: cfhelper ./contest1 http://codeforces.com/contest/1
+
+        NOTE: URL must be a publicly accessible link to a Codeforces problem or contest
 
     --set <templateFile>
         Sets the specified template file that will be generated when extracting problem data
@@ -15,11 +24,8 @@ Usage:
     --reset
         Resets the template file to the default C++ file
 
-    <directory> <URL>
-        Extracts the data of problem(s) in the URL and creates a new folder for the problem(s)
-        in the specified directory
+    --notest
+        Command to disable the creation of test script
 
-        Example: cfhelper . http://codeforces.com/problemset/problem/1/A
-        Example: cfhelper . http://codeforces.com/contest/1
-
-        NOTE: URL must be a publicly accessible link to a Codeforces problem or contest
+    --test
+        Command to enable the creation of test script
