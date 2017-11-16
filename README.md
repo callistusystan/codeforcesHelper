@@ -10,15 +10,13 @@ Codeforces Helper is free to use! If you like it, please support me and give it 
 
 If there are any problems with the tool, feel free to raise an issue on the Github repo, www.github.com/callistusystan/codeforcesHelper/issues or send me an email at callistusystan@gmail.com
 
-Currently, the tool is limited to public pages, thus it will not be able to extract problem data from private contests.
-
-Thank you to all users for choosing to use Codeforces Helper!
-
 ## Announcements ##
 
 Codeforces Helper is still very new, with more updates and functionalities to come, so don't forget to update the tool!
 
 	> npm update -g cfhelper
+
+Thank you to all users for choosing to use Codeforces Helper!
 
 ## Installation ##
 
