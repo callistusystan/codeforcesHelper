@@ -1,6 +1,6 @@
 {
   "name": "cfhelper",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "A node program to extract codeforces inputs and outputs",
   "main": "./lib/index.js",
   "repository": {
