@@ -6,9 +6,9 @@ Codeforces Helper is a Node.js executable that accepts a URL to a problem or con
 
 NOTE: To use the test script, the C++ executable should be named "sol" (g++ -std=c++14 <code.cpp> -o sol)
 
-Codeforces Helper is free to use! If you like it, please support me and give it a star on my Github (https://github.com/callistusystan/codeforcesHelper)! :star:
+Codeforces Helper is free to use! If you like it, please support me and give it a star on my Github, www.github.com/callistusystan/codeforcesHelper :star:
 
-If there are any problems with the tool, feel free to raise an issue on the Github repo (https://github.com/callistusystan/codeforcesHelper/issues) or send me an email at callistusystan@gmail.com
+If there are any problems with the tool, feel free to raise an issue on the Github repo, www.github.com/callistusystan/codeforcesHelper/issues or send me an email at callistusystan@gmail.com
 
 Currently, the tool is limited to public pages, thus it will not be able to extract problem data from private contests.
 
@@ -18,9 +18,7 @@ Thank you to all users for choosing to use Codeforces Helper!
 
 Codeforces Helper is still very new, with more updates and functionalities to come, so don't forget to update the tool!
 
-	```
-		> npm update -g cfhelper
-	```
+	> npm update -g cfhelper
 
 ## Installation ##
 
