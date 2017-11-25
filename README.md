@@ -53,12 +53,29 @@ Steps:
 
 		Example: cfhelper --set ./template.py
 		NOTE: templateFile must be a valid path to an existing file
+		NOTE: may require "sudo su"
 
 	--reset
 		Resets the template file to the default C++ file
+		
+		NOTE: may require "sudo su"
 
 	--notest
 		Command to disable the creation of test script
 
+		NOTE: may require "sudo su"
+
 	--test
 		Command to enable the creation of test script
+
+		NOTE: may require "sudo su"
+
+## Useful Documentation ##
+
+1. Install Bash on Ubuntu on Windows
+
+	https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/
+
+2. Install Node.js with NPM on Bash on Ubuntu on Windows
+
+	https://aigeec.com/installing-node-js-on-windows-10-bash/

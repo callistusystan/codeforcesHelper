@@ -20,12 +20,19 @@ Usage:
         Example: cfhelper --set ./template.py
 
         NOTE: templateFile must be a valid path to an existing file
+        NOTE: may require "sudo su"
 
     --reset
         Resets the template file to the default C++ file
 
+        NOTE: may require "sudo su"
+
     --notest
         Command to disable the creation of test script
 
+        NOTE: may require "sudo su"
+
     --test
         Command to enable the creation of test script
+
+        NOTE: may require "sudo su"
