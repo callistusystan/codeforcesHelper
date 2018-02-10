@@ -12,11 +12,10 @@ If there are any problems with the tool, feel free to raise an issue on the Gith
 
 ## Announcements ##
 
-Codeforces Helper is still very new, with more updates and functionalities to come, so don't forget to update the tool!
+While Codeforces Helper is still working fine, I would like to introduce my newer and improved tool,
+[Codr](https://github.com/callistusystan/Codr). Codr has a simpler API, and is designed the way I should have done when implementing cfhelper.
 
-	> npm update -g cfhelper
-
-Thank you to all users for choosing to use Codeforces Helper!
+Codr's goal is to be able to parse problems from more coding platforms, which is possible with its extensible design.
 
 ## Installation ##
 
@@ -57,7 +56,7 @@ Steps:
 
 	--reset
 		Resets the template file to the default C++ file
-		
+
 		NOTE: may require "sudo su"
 
 	--notest
